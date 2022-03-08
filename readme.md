@@ -9,7 +9,7 @@
 7. Create a single-page application to use the data
 8. Create a SPA server (indexSPA.js)
 
-### 1- Create a folder for the project
+### 1- Create a folder for the project //
 
 - Create a folder for the project. Name the folder with `'Bahri_Oussama_product_project'`.
 - Generate or write the package.json file for the project.
