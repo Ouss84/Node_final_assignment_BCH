@@ -9,14 +9,14 @@
 7. Create a single-page application to use the data
 8. Create a SPA server (indexSPA.js)
 
-### 1- Create a folder for the project //
+### 1- Create a folder for the project √
 
 - Create a folder for the project. Name the folder with `'Bahri_Oussama_product_project'`.
 - Generate or write the package.json file for the project.
 - Install mariadb library into the project folder.
 - Install all necessary libraries to the project.
 
-### 2- Write create statements for the database
+### 2- Write create statements for the database √
 
 - Write create statements to create a database called `'productdb'`.
 - Create a table product, for product data. Table columns are:
@@ -34,11 +34,11 @@
 - Create user `'amelia@localhost'` with password `'e9Od7CDM'`. Grant all necessary privileges to the user.
 - Save all necessary create statements into a json file `'Bahri_Oussama_product_createStatements.json'`
 
-### 3- Create the database
+### 3- Create the database √
 
 - Create the database with the create statements Bahri_Oussama_product_createStatements.json
 
-### 4- Create sql statements for accessing the data
+### 4- Create sql statements for accessing the data √
 
 - With sql statements you should be able to:
 
@@ -64,7 +64,7 @@
 
   - Data can be deleted using primary key `productId` as criterion.
 
-### 5- Create data access layer for the data
+### 5- Create data access layer for the data √
 
 - Create a datastorage layer with all necessary methods:
   - get all
