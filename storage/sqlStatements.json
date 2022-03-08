@@ -12,6 +12,6 @@
     "update product set name=?, model=?, type=?, price=?",
     "where productId=?"
   ],
-  "remove": ["delete from computer where productId=?"],
+  "remove": ["delete from product where productId=?"],
   "primaryKey": "productId"
 }
