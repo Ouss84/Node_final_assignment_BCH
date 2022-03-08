@@ -1,0 +1,27 @@
+{
+  "host": "localhost",
+  "port": 3306,
+  "admin": "controller",
+  "adminpassword": "secret",
+  "user": "amelia",
+  "userpassword": "e9Od7CDM",
+  "dropUser": true,
+  "debug": true,
+  "database": "productdb",
+  "tables": [
+    {
+      "tableName": "product",
+      "columns": [
+        "productId integer not null primary key",
+        "name varchar(22) not null",
+        "model integer not null",
+        "type varchar(13) not null",
+        "price integer not null"
+      ],
+      "data": [
+        [1, "White chair", 555, "Living room", 250],
+        [2, "White TV", 9009, "50 inch", 999]
+      ]
+    }
+  ]
+}
