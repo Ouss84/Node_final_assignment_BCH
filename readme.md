@@ -73,7 +73,7 @@
   - update
   - remove
 
-### 6- Create REST server (indexREST.js)
+### 6- Create REST server (indexREST.js) √
 
 - Create a REST server. Server is listening host `localhost:4000`. Allow cross-origin requests (Cross-Origin Resource Sharing).
 - REST API:
