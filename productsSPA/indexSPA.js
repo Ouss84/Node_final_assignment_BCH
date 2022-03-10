@@ -26,6 +26,17 @@ app.get("/getAll", (req, res) => {
     .catch((err) => res.json(err));
 });
 
+app.post("/getOne", (req, res) => {
+  const productId = req.body.productId;
+  if (productId && productId > 0) {
+    fetch(`http://localhost:4000/api/products/${productId}`, { mode: "cors" })
+      .then((data) => data.json())
+      .then((result) => res.json(result))
+      .catch((err) => res.json(err));
+  } else {
+    res.json({ message: "No Id entered", type: "error" });
+  }
+});
 server.listen(port, host, () =>
   console.log(`Server ${host}:${port} is running...`)
 );
