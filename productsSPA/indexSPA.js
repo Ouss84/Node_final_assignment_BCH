@@ -50,7 +50,19 @@ app.post("/add", (req, res) => {
     .then((result) => res.json(result))
     .catch((err) => res.json(err));
 });
-
+app.post("/update", (req, res) => {
+  const product = req.body;
+  const options = {
+    method: "PUT",
+    mode: "cors",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(product),
+  };
+  fetch(`http://localhost:4000/api/products/${product.productId}`, options)
+    .then((data) => data.json())
+    .then((result) => res.json(result))
+    .catch((err) => res.json(err));
+});
 app.post("/remove", (req, res) => {
   const productId = req.body.productId;
   if (productId && productId.length > 0) {

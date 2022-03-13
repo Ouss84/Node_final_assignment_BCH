@@ -1,3 +1,60 @@
+* {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 h1 {
-  color: red;
+  color: rgb(26, 25, 25);
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  width: 10rem;
+}
+#inputArea,
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.home button {
+  margin-top: 1rem;
+  width: 10rem;
+}
+button:hover {
+  background-color: rgb(216, 74, 74);
+  color: white;
+}
+table,
+th,
+td {
+  border: solid black 1px;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#inputArea label {
+  width: 10rem;
+  margin: 0.5rem;
+}
+#inputArea input {
+  width: 15rem;
+  border-radius: 5px;
+  height: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer {
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

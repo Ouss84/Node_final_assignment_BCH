@@ -18,11 +18,11 @@
   async function send() {
     clearMessageArea();
     const product = {
-      productId: idInput.value,
+      productId: +idInput.value,
       name: nameInput.value,
       model: modelInput.value,
       type: typeInput.value,
-      price: priceInput.value,
+      price: +priceInput.value,
     };
     try {
       const options = {
