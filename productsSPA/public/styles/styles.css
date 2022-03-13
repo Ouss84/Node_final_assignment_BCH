@@ -30,6 +30,7 @@ button {
   align-items: center;
   margin: 2rem 0;
 }
+
 input:read-only {
   background-color: rgb(172, 168, 168);
 }
@@ -59,7 +60,13 @@ td {
   height: 1rem;
   margin-top: 0.5rem;
 }
-
+.text-display {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .footer {
   height: 5rem;
   justify-content: center;
@@ -70,4 +77,7 @@ td {
 }
 #messageArea {
   width: 20rem;
+}
+#productId {
+  width: 1rem;
 }
