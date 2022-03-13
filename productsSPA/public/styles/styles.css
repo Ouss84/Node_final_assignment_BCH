@@ -11,6 +11,13 @@ h1 {
   color: rgb(26, 25, 25);
   text-align: center;
 }
+.button-menu,
+.button-submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
 button {
   cursor: pointer;
   width: 10rem;
@@ -22,6 +29,9 @@ button {
   justify-content: center;
   align-items: center;
   margin: 2rem 0;
+}
+input:read-only {
+  background-color: rgb(172, 168, 168);
 }
 .home button {
   margin-top: 1rem;
@@ -57,4 +67,7 @@ td {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+#messageArea {
+  width: 20rem;
 }
